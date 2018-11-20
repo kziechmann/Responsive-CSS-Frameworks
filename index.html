@@ -17,24 +17,21 @@
   </head>
 
   <body>
-    <div class="col-12 bg-dark text-white" id="navBar">
-      <head id="mainHeader">
-        <div class="row">
-          <img src="https://nodejs.org/static/images/logo.svg" class="col-sm-12" alt="node.js" height="80px" width="80px">
-        </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <a href="#" class="navlink text-white"> HOME </a>
-          <a href="#" class="navlink border-left text-white"> ABOUT </a>
-          <a href="#" class="navlink border-left text-white"> DOWNLOADS </a>
-          <a href="#" class="navlink border-left text-white"> DOCS </a>
-          <a href="#" class="navlink border-left text-white"> GET INVOLVED </a>
-          <a href="#" class="navlink border-left text-white"> SECURITY </a>
-          <a href="#" class="navlink border-left text-white"> NEWS </a>
-          <a href="#" class="navlink bg-success text-white"> FOUNDATION </a>
-        </div>
-      </div>
-      </head>
+    <div class="col-md-12 bg-dark text-white" id="navBar">
+        <!-- <div class="row" id="mainHeader"> -->
+          <div class="col-md-12 text-center">
+            <img src="https://nodejs.org/static/images/logo.svg" alt="node.js" height="125px" width="125px">
+          </div>
+          <div class="col-md-12 nav justify-content-center">
+              <a href="#" class="navlink text-white  "> HOME </a>
+              <a href="#" class="navlink border-left text-white "> ABOUT </a>
+              <a href="#" class="navlink border-left text-white "> DOWNLOADS </a>
+              <a href="#" class="navlink border-left text-white "> DOCS </a>
+              <a href="#" class="navlink border-left text-white "> GET INVOLVED </a>
+              <a href="#" class="navlink border-left text-white "> SECURITY </a>
+              <a href="#" class="navlink border-left text-white "> NEWS </a>
+              <a href="#" class="navlink bg-success text-white "> FOUNDATION </a>
+          </div>
     </div>
     <div class="container" id="main">
       <div class="row">
@@ -56,7 +53,7 @@
           <div class="row">
             <button type="button" class="btn btn-success btn-xl ">8.12.0 LTS<p><small> Recommended For Most Users</small></p></button>
           </div>
-          <div class="row" style="margin: auto; padding-left: 20%;">
+          <div class="row justify-content-center">
             <a href="#" class="sublink text-success"> Other Downloads </a>
             <a href="#" class="sublink border-left text-success"> Changelog </a>
             <a href="#" class="sublink border-left text-success"> API Docs </a>
@@ -66,7 +63,7 @@
           <div class="row">
             <button type="button" class="btn btn-success btn-xl " id="button2">11.0.0 LTS<p><small>      Latest Features      </small></p></button>
           </div>
-          <div class="row" style="margin: auto; padding-left: 20%;">
+          <div class="row justify-content-center">
             <a href="#" class="sublink text-success"> Other Downloads </a>
             <a href="#" class="sublink border-left text-success"> Changelog </a>
             <a href="#" class="sublink border-left text-success"> API  </a>
@@ -85,5 +82,26 @@
         </div>
       </div>
     </div>
+    <footer class="col-12 bg-dark">
+      <div class="row footerImg">
+        <div class="col-6">
+          <img id="lfcp" src="https://nodejs.org/static/images/lfcp.png" width="100%">
+        </div>
+        <div class="col-6 align-right footlinks">
+            <a href="#" class="sublink text-white"> Other Downloads </a>
+            <a href="#" class="sublink border-left text-white"> Changelog </a>
+            <a href="#" class="sublink border-left text-white"> API  </a>
+        </div>
+        <p class="copyright">
+          © Node.js Foundation. All Rights Reserved. Portions of this site originally © Joyent.
+        </p>
+        <p class="copyright">
+            Node.js is a trademark of Joyent, Inc. and is used with its permission. Please review the Trademark Guidelines of the Node.js Foundation.
+            Linux Foundation is a registered trademark of The Linux Foundation.
+            Linux is a registered trademark of Linus Torvalds.
+            Node.js Project Licensing Information.`
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
